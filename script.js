@@ -26,4 +26,6 @@ function generate() {
 
 generate();
 
-generateBtn.addEventListener("click", generate());
+generateBtn.addEventListener("click", function () {
+  generate();
+});
